@@ -1,0 +1,212 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --logo-font: "Raleway", sans-serif;
+
+  --main-color: #212121;
+  --secondary-color: #757575;
+
+  --brand-color: #2196f3;
+}
+
+/* ========== */
+
+body {
+  font-family: var(--main-font);
+  color: var(--main-color);
+}
+:link {
+  color: var(--brand-color);
+}
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  background-color: #f5f4fa;
+}
+.btn:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: var(--brand-color);
+}
+.btn-modal {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #fff;
+  background-color: var(--brand-color);
+}
+.btn-modal:hover {
+  cursor: pointer;
+}
+.main-heading {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  /* color:#fff */
+}
+.secondary-heding {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.667;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.third-heading {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+/* =========== */
+
+/* ---HEADER-- */
+.logo-accent {
+  color: var(--brand-color);
+}
+.logo-link,
+.logo-link:hover,
+.logo-link:visited,
+.logo-link:active {
+  font-family: var(--logo-font);
+  font-weight: 700;
+  font-size: 26px;
+  font-style: normal;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--main-color);
+}
+.menu-nav-link,
+.contact-nav-link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-decoration: none;
+}
+.menu-nav-link {
+  color: var(--main-color);
+}
+.contact-nav-link {
+  color: var(--secondary-color);
+}
+.menu-nav-link:hover,
+.menu-nav-link:active,
+.menu-nav-link:focus,
+.contact-nav-link:hover,
+.contact-nav-link:active,
+.contact-nav-link:focus {
+  color: var(--brand-color);
+  cursor: pointer;
+}
+
+/* ---END HEADER-- */
+
+/* ---HERO--- */
+/* ---END HERO--- */
+
+/* ---OUR STRENGHTS */
+
+.our-strenghts-list-text {
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--secondary-color);
+}
+/* ---END OUR STRENGHTS */
+
+/* ---WHAT WE DO--- */
+/* ---END WHAT WE DO--- */
+
+/* ---OUR TEAM--- */
+.our-team-member-name,
+.our-team-member-job {
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.our-team-member-job {
+  font-weight: 400;
+  color: var(--secondary-color);
+}
+/* ---END OUR TEAM--- */
+
+/* ---FOOTER--- */
+.footer-box {
+  background-color: #2f303a;
+}
+.footer-logo-accent,
+.footer-logo-accent:hover {
+  color: var(--brand-color);
+}
+.footer-logo-link,
+.footer-logo-link:visited,
+.footer-logo-link:active {
+  font-family: var(--logo-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.193;
+  letter-spacing: 0.03em;
+  color: #fff;
+  text-decoration: none;
+}
+.footer-adress {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #fff;
+  text-decoration: none;
+}
+.footer-adress-tel,
+.footer-adress-mail a,
+.footer-adress-tel a {
+  text-decoration: none;
+}
+.footer-adress-mail a:active,
+.footer-adress-mail a:hover,
+.footer-adress-mail a:focus,
+.footer-adress-tel a:active,
+.footer-adress-tel a:hover,
+.footer-adress-tel a:focus {
+  color: var(--brand-color);
+  cursor: pointer;
+}
+.footer-adress-mail a,
+.footer-adress-mail a:visited,
+.footer-adress-tel a,
+.footer-adress-tel a:visited {
+  color: rgba(255, 255, 255, 0.6);
+}
+/* ---END FOOTER--- */
+
+/* PORTFOLIO PAGE */
+
+/* ---PROJECT FILTERS--- */
+/* ---END PROJECT FILTERS--- */
+
+/* ---PROJECT LIST--- */
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.project-type {
+  line-height: 1.875;
+  color: var(--secondary-color);
+  letter-spacing: 0.03em;
+}
+/* ---END PROJECT LIST--- */
