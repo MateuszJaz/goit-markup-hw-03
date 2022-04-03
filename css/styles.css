@@ -65,12 +65,7 @@ section {
   padding: 0 15px;
   display: flex;
   flex-wrap: wrap;
-
   justify-content: inherit;
-}
-
-.container-content {
-  justify-content: space-between;
 }
 
 .btn {
@@ -239,7 +234,7 @@ a[href="#kontakt.html"] {
 
 /* ---HERO--- */
 .hero {
-  margin: auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -255,18 +250,19 @@ a[href="#kontakt.html"] {
 
 .our-strenghts {
   padding-bottom: 0;
-  display: flex;
-  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .our-strenghts-list {
   display: flex;
-  height: 101px;
+  width: 1200px;
+  justify-content: space-between;
 }
 
 .our-strenghts-list-text {
   width: 270px;
-  margin: 10px 30px 0 0;
+  margin-top: 10px;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
@@ -284,9 +280,8 @@ a[href="#kontakt.html"] {
 
 .what-we-do-list {
   display: flex;
-}
-.what-we-do-list-item {
-  margin-right: 30px;
+  width: 1200px;
+  justify-content: space-between;
 }
 
 /* ---END WHAT WE DO--- */
@@ -298,12 +293,9 @@ a[href="#kontakt.html"] {
   display: flex;
   justify-content: center;
   background-color: #f5f4fa;
-  display: flex;
-  align-content: center;
 }
 
 .our-team-member {
-  margin-right: 30px;
   background-color: #fff;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -312,6 +304,9 @@ a[href="#kontakt.html"] {
 
 .our-team-list {
   display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  padding: 0 15px;
 }
 
 .our-team-member-name {
@@ -414,20 +409,15 @@ a[href="#kontakt.html"] {
 
 .projects-filters-list {
   display: flex;
-}
-
-.projects-filter-list-btn {
-  margin-right: 8px;
+  width: 572px;
+  justify-content: space-between;
 }
 
 /* ---END PROJECT FILTERS--- */
 
 /* ---PROJECT LIST--- */
 .projects-list {
-  justify-content: center;
-}
-
-.projcts-list-item {
+  justify-content: space-between;
 }
 
 .project-box {
