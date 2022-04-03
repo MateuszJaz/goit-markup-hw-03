@@ -4,6 +4,7 @@
 
   --main-color: #212121;
   --secondary-color: #757575;
+  --dark-background-color: #2f303a;
 
   --brand-color: #2196f3;
 }
@@ -11,8 +12,7 @@
 /* ========== */
 
 body {
-  width: 1600px;
-  margin: auto;
+  margin: 0 auto;
   font-family: var(--main-font);
   color: var(--main-color);
 }
@@ -58,13 +58,15 @@ section {
 }
 
 .container {
+  align-items: center;
+  box-sizing: border-box;
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
   display: flex;
   flex-wrap: wrap;
+
   justify-content: inherit;
-  align-items: center;
 }
 
 .container-content {
@@ -104,12 +106,12 @@ section {
   border: none;
   border-radius: 4px;
   background-color: var(--brand-color);
-  box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.554));
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .btn-modal:hover {
   cursor: pointer;
-  box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .main-heading {
@@ -147,9 +149,10 @@ section {
 .header {
   display: flex;
   align-items: center;
-  justify-content: center;
+  margin: 0 auto;
   height: 79px;
   border-bottom: 1px solid #ececec;
+  max-width: 1600px;
 }
 
 .logo-accent {
@@ -196,7 +199,7 @@ section {
 
 .contact-nav {
   display: flex;
-  margin-left: 371px;
+  margin-left: 364px;
 }
 
 .contact-nav-link-tel {
@@ -236,13 +239,15 @@ a[href="#kontakt.html"] {
 
 /* ---HERO--- */
 .hero {
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   box-sizing: border-box;
-  width: 1600px;
+  max-width: 1600px;
   height: 600px;
-  background-color: #2f303a;
+  background-color: var(--dark-background-color);
 }
 /* ---END HERO--- */
 
@@ -260,6 +265,8 @@ a[href="#kontakt.html"] {
 }
 
 .our-strenghts-list-text {
+  width: 270px;
+  margin: 10px 30px 0 0;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
@@ -286,9 +293,13 @@ a[href="#kontakt.html"] {
 
 /* ---OUR TEAM--- */
 .our-team {
+  max-width: 1600px;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   background-color: #f5f4fa;
+  display: flex;
+  align-content: center;
 }
 
 .our-team-member {
@@ -325,7 +336,9 @@ a[href="#kontakt.html"] {
 
 /* ---FOOTER--- */
 .footer-box {
-  background-color: #2f303a;
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: var(--dark-background-color);
 }
 
 .footer-style {
@@ -418,12 +431,14 @@ a[href="#kontakt.html"] {
 }
 
 .project-box {
-  border: 1px solid #eee;
   margin-bottom: 30px;
 }
 
 .project-description {
-  margin: 20px 24px;
+  padding: 20px 24px;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  border-left: 1px solid #eee;
 }
 
 .project-name {
